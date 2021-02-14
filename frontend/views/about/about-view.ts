@@ -1,5 +1,6 @@
 import '!style-loader!css-loader!./about-view.css';
-import { customElement, html } from 'lit-element';
+import { html } from 'lit';
+import { customElement } from 'lit/decorators';
 import { View } from '../../views/view';
 
 @customElement('about-view')

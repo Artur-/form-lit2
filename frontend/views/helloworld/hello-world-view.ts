@@ -2,7 +2,8 @@ import '!style-loader!css-loader!./hello-world-view.css';
 import { showNotification } from '@vaadin/flow-frontend/a-notification';
 import '@vaadin/vaadin-button';
 import '@vaadin/vaadin-text-field';
-import { customElement, html } from 'lit-element';
+import { html } from 'lit';
+import { customElement } from 'lit/decorators';
 import { View } from '../../views/view';
 
 @customElement('hello-world-view')
