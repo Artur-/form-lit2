@@ -48,9 +48,10 @@
     "@vaadin/vaadin-text-field": "3.0.1",
     "@vaadin/vaadin-time-picker": "3.0.0",
     "@vaadin/vaadin-upload": "5.0.0",
-    "lit-element": "2.3.1",
     "@adobe/lit-mobx": "^1.0.1",
-    "mobx": "^6.1.5"
+    "mobx": "^6.1.5",
+    "lit": "2.0.0-pre.1",
+    "open": "^7.2.1"
   },
   "devDependencies": {
     "@types/validator": "13.1.0",
@@ -65,12 +66,10 @@
     "html-webpack-plugin": "4.5.1",
     "idb": "5.0.6",
     "lit-css-loader": "0.0.4",
-    "lit-element": "2.4.0",
-    "lit-html": "1.3.0",
     "loader-utils": "2.0.0",
     "style-loader": "^2.0.0",
     "ts-loader": "8.0.12",
-    "typescript": "4.0.3",
+    "typescript": "4.1.5",
     "validator": "13.1.17",
     "webpack": "4.46.0",
     "webpack-cli": "3.3.11",
@@ -79,7 +78,10 @@
     "webpack-merge": "4.2.2",
     "workbox-core": "5.1.4",
     "workbox-precaching": "5.1.4",
-    "workbox-webpack-plugin": "5.1.4"
+    "workbox-webpack-plugin": "5.1.4",
+    "babel-loader": "8.2.2",
+    "@babel/preset-env": "7.12.16",
+    "@babel/core": "7.12.16"
   },
   "vaadin": {
     "dependencies": {
@@ -127,7 +129,8 @@
       "@vaadin/vaadin-text-field": "3.0.1",
       "@vaadin/vaadin-time-picker": "3.0.0",
       "@vaadin/vaadin-upload": "5.0.0",
-      "lit-element": "2.3.1"
+      "lit": "2.0.0-pre.1",
+      "open": "^7.2.1"
     },
     "devDependencies": {
       "@types/validator": "13.1.0",
@@ -142,21 +145,22 @@
       "html-webpack-plugin": "4.5.1",
       "idb": "5.0.6",
       "lit-css-loader": "0.0.4",
-      "lit-element": "2.4.0",
-      "lit-html": "1.3.0",
       "loader-utils": "2.0.0",
       "ts-loader": "8.0.12",
-      "typescript": "4.0.3",
+      "typescript": "4.1.5",
       "validator": "13.1.17",
-      "webpack": "4.42.0",
+      "webpack": "4.46.0",
       "webpack-cli": "3.3.11",
       "webpack-dev-server": "3.11.0",
       "webpack-manifest-plugin": "3.0.0",
       "webpack-merge": "4.2.2",
       "workbox-core": "5.1.4",
       "workbox-precaching": "5.1.4",
-      "workbox-webpack-plugin": "5.1.4"
+      "workbox-webpack-plugin": "5.1.4",
+      "babel-loader": "8.2.2",
+      "@babel/preset-env": "7.12.16",
+      "@babel/core": "7.12.16"
     },
-    "hash": "4c2ab8bf57ec9d2e44f81bae7ceee468117fc9b26ad3cfae4c2a79713c159596"
+    "hash": "98a89d631c99f0d9ef74f9f05a9ed25979b704698a9cc95e8aeb093db5f7dda5"
   }
 }
